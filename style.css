@@ -1,18 +1,18 @@
+́*{
+	padding: 0;
+	margin: 0;
+}
 .container{
 	width: 1020px;
 	height: auto;
 	margin: 0 auto;
 }
 /*css thanh*/
- *{
- 	margin: 0;
- 	padding: 0;
- }
  .header{
  	width: 1020px;
  	height: 120px;
  	margin: 0 auto;
- 	background: #778899;
+ 	/* background: #778899; */
  }
  .header .lienhe{
  	width: 100%;
@@ -23,7 +23,7 @@
  .lienhe .phone{
 	width: 30%;
 	height: 50px;
-	line-height: 50px;
+	line-height: 14px;
 	float: left;
  }
 .phone img{
@@ -54,7 +54,7 @@
 	height: 50px;
 	list-style: none;
 	display: block;
-	margin-left: 40%;
+	margin-left: 30%;
 }
 .mail ul li{
 	width:10%;
@@ -62,7 +62,7 @@
 	list-style: none;
 	display: block;
 	float: right;
-	margin-top: 10px;
+	margin-top: -10px;
 }
 .mail ul li:hover{
 	background: red;
@@ -108,7 +108,7 @@
 	height: 40px;
 	float: left;
 	list-style: none;
-	margin-left: 2.5%;
+	margin-left: 1.5%;
 }
 .list img{
 	width: 25px;
@@ -129,7 +129,7 @@
 }
 
 /*css Linh*/
-.khung .pic{
+.container .pic{
 	width: 100%;
 	height: 400px;
 	background-image: url('http://hinhanhdep.org/wp-content/uploads/2016/08/hinh-anh-dep-ve-thien-nhien.jpg');
@@ -137,10 +137,22 @@
 }
 .pic .text{
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 	height: 300px;
 	/*background: green;*/
 	padding-top: 50px;
+}
+.pic .text .box6{
+	float: left;
+	width: 100px;
+	height: 100px;
+	/*background: pink;*/
+	margin-top: 100px;
+}
+.pic .text .box6 img{
+	width: 100%;
+	height: 100%;
+	transform: rotate(180deg);
 }
 .pic .text .box{
 	float: left;
@@ -153,13 +165,9 @@
 	width: 100%;
 	height: 100%;
 }
-.pic .text .diff{
-	float: right;
-}
-
 .pic .text .text1{
 	float: left;
-	width: 80%;
+	width: 75%;
 	height: auto;
 }
 .pic .text .text1 h6{
@@ -184,7 +192,7 @@
 	text-align: center;
 }
 .pic .text .text1 .more{
-	width: 36%;
+	width: 60%;
 	margin: 0 auto;
 	height: 40px;
 	/*background: pink;*/
@@ -199,25 +207,21 @@
 	text-align: center;
 }
 .pic .text .text1  .more .box1 a{
-	
 	color: white;
 	font-size: 16px;
 	line-height: 40px;
-	text-decoration: none;
-
-	
+	text-decoration: none;	
 }
 .pic .text .text1  .more .box2{
 	float: right;
 	width: 90px;
 	height: 40px;
 	background: blue;
-	margin-right: 50px;
+	margin-right: 0px;
 	text-align: center;
 	
 }
-.pic .text .text1  .more .box2 a{
-	
+.pic .text .text1  .more .box2 a{	
 	color: white;
 	font-size: 16px;
 	line-height: 40px;
@@ -227,7 +231,7 @@
 .pic .text .text1  .more a:hover{
 	color: red;
 }
-.khung .aboutus{
+.container .aboutus{
 	margin: 0 auto;
 	width: 100%;
 	height: 500px;
@@ -283,11 +287,12 @@
 	/*background: white;*/
 	border-radius: 100px;
 	margin: 0 auto;
-	border: 6px solid white;
+	border: 6px solid black;
 }
 .aboutus .text .box .circle img{
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	height: 50%;
+	padding: 24px;
 }
 
 .aboutus .text .box p{
@@ -296,8 +301,8 @@
 	line-height: 30px;
 	text-align: center;
 }
-.aboutus .text .box p1{
-	color: black;
+.aboutus .text .box p{
+	color: white;
 	font-size: 16px;
 	line-height: 20px;
 	text-align: justify;
@@ -307,7 +312,7 @@
 	width: 20px;
 	height: 20px;
 	margin: 0 auto;
-	background: white;
+	background: black;
 	border-radius: 100px;
 	margin-top: 20px;
 }
@@ -318,11 +323,12 @@
 }
 /*css Bao*/
 /*css Haem*/
-.khung .our {
-
+.container .our {
+	margin-top: 50px;
+	clear: both;
 	width: 100%;
 	height: 350px;
-	background: gray;
+	/* background: gray; */
 }
 .our h2{
 	margin: 0;
@@ -342,7 +348,7 @@
 	height:260px;
 	margin: 0 auto;
 	margin-top: 13px;
-	background: green;
+	/* background: green; */
 }
 .Gth .box{
 	float: left;
@@ -377,19 +383,25 @@
 	height: 100%;
 	background: blue;
 }
-.khung .Pricing{
+.container .Pricing{
 	width: 100%;
 	height: 400px;
-	background: green;
+	background-image: url('http://hinhanhdep.org/wp-content/uploads/2016/08/hinh-anh-dep-ve-thien-nhien.jpg');	
 }
-.Pricing .line{
+.container .Pricing .bg{
+	width: 100%;
+	height: 400px;
+	float: left;
+	background-color: rgba(242, 242, 242,0.5);
+}
+.Pricing .bg .line{
 	width: 5%;
 	height: 5px;
 	margin: 0 auto;
 	border-bottom: 2px solid black;
 	border-top: 2px solid black;
 }
-.Pricing h2{
+.Pricing .bg h2{
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -397,7 +409,7 @@
 	text-transform: uppercase;
 	color: white;
 }
-.Pricing p{
+.Pricing .bg p{
 	padding:10px 5px 5px 5px;
 	margin: 0;
 	text-align: center;
@@ -496,4 +508,239 @@
 	width: 80px;
 	height: 30px;
 	background: blue;
+}
+/*css Phe*/
+	/*keep in touch*/
+.container .keepintouch{
+	clear: both;
+	margin: 0 auto;
+	width: 1020px;
+	height: 520px;
+	/*background: blue;*/
+}
+.keepintouch .titles{
+	width: 1020px;
+	height: 80px;
+	/*background: green;*/
+}
+.titles h2{
+	margin: 0;
+	text-align: center;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-top: 35px;
+}
+.keepintouch .lines{
+	margin: 0 auto;
+	width: 100px;
+	height: 3px;
+	background: black;
+	margin-bottom: 5px;
+}
+.keepintouch .texts{
+	margin: 0 auto;
+	width: 85%;
+	height: 85px;
+	/*background: pink;*/
+}
+.texts p{
+	margin: 0;
+	text-align: center;
+	line-height: 25px;
+	font-size: 17px;
+}
+.keepintouch .textgrip{
+	margin: 0 auto;
+	width: 70%;
+	height: 300px;
+	/*background: violet;*/
+}
+.textgrip .information{
+	float: left;
+	width: 30%;
+	height: 50px;
+	/*background: orange;*/
+	border: 1.5px solid gray;
+	border-radius:10px;
+	margin-bottom: 20px;
+}
+.diffs1{
+	margin-left: 4.36%;
+	margin-right: 4.36%;
+}
+.information .pics{
+	float: left;
+	width: 20%;
+	height: 100%;
+	/*background: green;*/
+}
+.pics img{
+	width: 60%;
+	height: 50%;
+	padding: 8px;
+}
+.information .Yname{
+	float: right;
+	width: 80%;
+	height: 100%;
+/*	background: red;*/
+}
+.Yname p{
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 50px;
+	color: gray;
+}
+.textgrip .write{
+	clear: both;
+	width: 99.6%;
+	height: 150px;
+	/*background: red;*/
+	border: 1.5px solid gray;
+	border-radius:10px;
+}
+.write .pics1{
+	float: left;
+	width: 8%;
+	height: 50px;
+	/*background: green;*/
+}
+.pics1 img{
+	width: 50%;
+	height: 50%;
+	padding: 8px 15px;
+}
+.write .Yname1{
+	float: left;
+	width: 50%;
+	height: 50px;
+	/*background: blue;*/
+}
+.Yname1 p{
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 50px;
+	color: gray;
+}
+.textgrip .send{
+	clear: both;
+	width: 100%%;
+	height: 40px;
+	/*background: blue;*/
+	margin-top: 20px;
+	
+}
+.send a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:green;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	line-height: 40px;
+	border-radius:10px;
+}
+.send a:hover{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:blue;
+	color: red;
+	border-radius:10px;
+}
+.container .address{
+	margin: 0 auto;
+	width: 1020px;
+	height: 100px;
+	background: black;
+	background-image: url(https://scontent.fdad3-2.fna.fbcdn.net/v/t1.15752-9/42089530_2146312812278248_8341852921591234560_n.jpg?_nc_cat=107&oh=865849d749efed1c631db25615874094&oe=5C27D800);
+	position: relative;
+	background-size: auto;
+	background-position: center;
+}
+.address .add{
+	float: left;
+	width: auto;
+	height: 100%;
+	/*background: green;*/
+	margin-left: 10%;
+}
+.add .pics2{
+	float: left;
+	width: 40px;
+	height:100%;
+	/*background: red;*/
+}
+.pics2 img{
+	width: 60%;
+	height: 40%;
+	padding: 25px 10px;
+}
+.add .inform{
+	float: left;
+	width: auto;
+	height: 80%;
+	/*background: blue;*/
+	padding-top: 20px;
+}
+.add .inform b{
+	margin: 0;
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+}
+.add .inform p{
+	margin: 0;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.diffs2 p{
+	text-transform: none;
+}
+.container .map{
+	margin: 0 auto;
+	width: 1020px;
+	height: 300px;
+	background: green;
+}
+.map img{
+	width:100%;
+	height: 100%;
+}
+.container .footer{
+	margin: 0 auto;
+	width: 1020px;
+	height: 50px;
+	background: black;
+}
+.footer .copyright{
+	width: 60%;
+	height: 50px;
+	float: left;
+}
+.copyright h4{
+	margin: 0;
+	color: white;
+	padding-left: 50px;
+	line-height: 50px;
+}
+.footer .team{
+	float: left;
+	width: 40%;
+	height: 50px;
+}
+.team p{
+	margin: 0;
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+	line-height: 50px;
 }
