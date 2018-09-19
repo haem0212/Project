@@ -4,6 +4,193 @@
 }
 /*css thanh*/
 /*css Linh*/
+.khung .pic{
+	width: 100%;
+	height: 400px;
+	background-image: url('http://hinhanhdep.org/wp-content/uploads/2016/08/hinh-anh-dep-ve-thien-nhien.jpg');
+
+}
+.pic .text{
+	margin: 0 auto;
+	width: 70%;
+	height: 300px;
+	/*background: green;*/
+	padding-top: 50px;
+}
+.pic .text .box{
+	float: left;
+	width: 100px;
+	height: 100px;
+	/*background: pink;*/
+	margin-top: 100px;
+}
+.pic .text .box img{
+	width: 100%;
+	height: 100%;
+}
+.pic .text .diff{
+	float: right;
+}
+
+.pic .text .text1{
+	float: left;
+	width: 80%;
+	height: auto;
+}
+.pic .text .text1 h6{
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+.pic .text .text1 h4{
+	margin: 0 auto;
+	color: white;
+	font-size: 40px;
+	line-height: 40px;
+	display: block;
+	width: 80%;
+	text-align: center;
+}
+.pic .text .text1 p{
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+.pic .text .text1 .more{
+	width: 36%;
+	margin: 0 auto;
+	height: 40px;
+	/*background: pink;*/
+}
+.pic .text .text1  .more .box1{
+	float: left;
+	width: 100px;
+	height: 36px;
+	/*background: black;*/
+	margin-right: 50px;
+	border: 2px solid white;
+	text-align: center;
+}
+.pic .text .text1  .more .box1 a{
+	
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration: none;
+
+	
+}
+.pic .text .text1  .more .box2{
+	float: right;
+	width: 90px;
+	height: 40px;
+	background: blue;
+	margin-right: 50px;
+	text-align: center;
+	
+}
+.pic .text .text1  .more .box2 a{
+	
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration: none;
+	
+}
+.pic .text .text1  .more a:hover{
+	color: red;
+}
+.khung .aboutus{
+	margin: 0 auto;
+	width: 100%;
+	height: 500px;
+	/*background: pink;*/
+	margin-top: 20px;
+}
+.aboutus h4{
+	margin: 0;
+	color: black;
+	font-size: 40px;
+	line-height: 70px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.aboutus hr{ 
+	width: 100px;
+}
+.aboutus p{ 
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 auto;
+	display: block;
+	width: 70%;
+	height: auto;
+	text-align: center;
+}
+.aboutus .text{
+	width: 70%;
+	margin: 0 auto;
+	height: 250px;
+	/*background: red;*/
+	margin-top: 50px;
+}
+.aboutus .text .box{
+	float: left;
+	width: 22%;
+	height: 100%;
+	/*background: pink;*/
+
+}
+.aboutus .text .diff1{
+	margin-right: 4%;
+	margin-left: 4%;
+}
+.aboutus .text .diff2{
+	margin-right: 4%;
+}
+.aboutus .text .box .circle{
+	width: 90px;
+	height: 90px;
+	/*background: white;*/
+	border-radius: 100px;
+	margin: 0 auto;
+	border: 6px solid white;
+}
+.aboutus .text .box .circle img{
+	width: 100%;
+	height: 100%;
+}
+
+.aboutus .text .box p{
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+.aboutus .text .box p1{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+	text-align: center;
+}
+.aboutus .text .box .circle1{
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+.aboutus .text .box .circle1 p{
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+}
 /*css Bao*/
 /*css Haem*/
 /*css Phe*/
