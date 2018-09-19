@@ -1,189 +1,133 @@
 .container{
 	width: 1020px;
 	height: auto;
+	margin: 0 auto;
 }
 /*css thanh*/
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .header{
+ 	width: 1020px;
+ 	height: 120px;
+ 	margin: 0 auto;
+ 	background: #778899;
+ }
+ .header .lienhe{
+ 	width: 100%;
+ 	height: 50px;
+ 	float: left;
+ 	border-bottom: 2px solid black;
+ }
+ .lienhe .phone{
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+ }
+.phone img{
+ 	width: 15px;
+ 	height: 15px;
+ 	float: left;
+ 	padding-top: 18px;
+ }
+.phone p{
+	width: 45%;
+	height: 50px;
+	float: left;
+	font-size: 18px;
+}
+.lienhe .mail{
+	width: 40%;
+	height:50px;
+	float: right; 
+	margin-right: 1%;
+}
+.mail img{
+	width: 15px;
+	height: 15px;
+	margin-top: 10px;
+}
+.mail ul{
+	width: 60%;
+	height: 50px;
+	list-style: none;
+	display: block;
+	margin-left: 40%;
+}
+.mail ul li{
+	width:10%;
+	height: 35px;
+	list-style: none;
+	display: block;
+	float: right;
+	margin-top: 10px;
+}
+.mail ul li:hover{
+	background: red;
+}
+.header .menu{
+	width: 100%;
+	height: 70px;
+}
+.menu .logo{
+	width: 20%;
+	height: 55px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 20px;
+	border: 3px solid black;	
+}
+.logo img{
+	display: block;
+	width: 90%;
+	height: 55px;
+	margin: 0 auto;
+}
+.menu .list{
+	width: 70%;
+	height: 70px;
+	float: right;
+}
+.list ul{
+	display: block;
+	width: 100%;
+	height:40px; 
+	line-height: 40px;
+	margin-top: 15px;
+}
+.list ul li.active a{
+	width: auto;
+	height: 40px;
+	color: blue;
+	border-bottom: 3px solid blue;
+}
+.list ul li{
+	width: auto;
+	height: 40px;
+	float: left;
+	list-style: none;
+	margin-left: 2.5%;
+}
+.list img{
+	width: 25px;
+	height: 20px;
+	margin-top: 10px;
+}
+.list a{
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	display: block;
+}
+.list ul li:hover{
+	border-bottom: 3px solid blue;
+}
+.list ul li a:hover{
+	color: gray;
+}
+
 /*css Linh*/
 /*css Bao*/
 /*css Haem*/
-.container .our {
-
-	width: 100%;
-	height: 350px;
-	background: gray;
-}
-.our h2{
-	margin: 0;
-	padding-top: 20px;
-	text-align: center;
-	color: red;
-}
-.our .boder{
-	width: 5%;
-	height: 5px;
-	margin: 0 auto;
-	border-bottom: 2px solid black;
-	border-top: 2px solid black;
-}
-.our .Gth{
-	width: 80%;
-	height:260px;
-	margin: 0 auto;
-	margin-top: 13px;
-	/* background: green; */
-}
-.Gth .box{
-	float: left;
-	width: 23%;
-	height: 100%;
-	/*background: yellow;*/
-	margin-left: 13.5px;
-}
-.Gth .box img{
-	margin: 0;
-	width: 188px;
-	height: 190px;
-}
-.Gth .box h3{
-	margin: 0;
-	padding: 5px;
-	text-align: center;
-}
-.Gth .box p{
-	margin: 0;
-	padding: 5px;
-	text-align: center;
-	font-size: 15px;
-}
-.Gth .box a{
-	text-decoration: none;
-	color: black;
-}
-.Gth .box a:hover{
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: blue;
-}
-.container .Pricing{
-	width: 100%;
-	height: 400px;
-	background: green;
-}
-.Pricing .line{
-	width: 5%;
-	height: 5px;
-	margin: 0 auto;
-	border-bottom: 2px solid black;
-	border-top: 2px solid black;
-}
-.Pricing h2{
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
-}
-.Pricing p{
-	padding:10px 5px 5px 5px;
-	margin: 0;
-	text-align: center;
-	color: black;
-}
-.Pricing p.p{
-	padding: 0;
-	text-align: center;
-	color: black;
-}
-.Pricing .permonth{
-	margin: 0 auto;
-	width: 70%;
-	height: 292px;
-	/*background: gray;*/
-	
-}
-.Pricing .permonth .buy{
-	float: left;
-	margin-right: 12px;
-	width: 23%;
-	height: 292px;
-	/*background: yellow;*/
-	border-left: 2px solid white;
-}
-.permonth .buy .box1{
-	width: 100%;
-	height: 100px;
-	
-}
-.buy .box1 .tien{
-	float: left;
-	width: 30%;
-	height: 60px;
-	/*background: red;*/
-}
-.buy .box1 .tien p{
-	margin: 0;
-	color: white;
-	font-size: 50px;
-}
-.buy .box1 .per{
-	float: left;
-	width: 70%;
-	height: 60px;
-}
-.buy .box1 .per p{
-	text-transform: uppercase;
-	margin: 0;
-	color: white;
-	padding-top: 40px;
-	font-size: 20px;
-}
-.buy .box1 .sta{
-	width: 100%
-	height: 40px;
-	/*background: red;*/
-}
-.buy .box1 .sta p{
-	padding: 0;
-	color: white;
-	font-size: 25px;
-	text-transform: uppercase;
-}
-.buy .box2 {
- 	width: 100%;
- 	height: 300px;
-}
-.buy .box2 p{
-	margin: 0;
-	padding: 10px;
-	text-align: inherit;
-}
-.buy .box2 ul li {
-	display: block;
-	margin-top: -25px;
-	margin-left: -35px;
-	margin-bottom: -15px;
-	width: 200px;
-	height: 50px;
-	list-style: none;
-}
-.buy .box2 a{
-	display: block;
-	width: 80px;
-	height: 30px;
-	background: gray;
-	text-align: center;
-	line-height: 30px;
-	text-decoration: none;
-	color: white;
-	margin-left: 10px;
-}
-.buy .box2 a:hover{
-	display: block;
-	width: 80px;
-	height: 30px;
-	background: blue;
- 
-}
-/*css Phe*/
